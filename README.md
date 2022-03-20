@@ -14,5 +14,15 @@ Además registrarse.html hace uso de
 - Thymeleaf: https://www.thymeleaf.org/ 
 - Java Bean Validation’s @Valid constraint para validar los campos introducidos.
 
+Una vez se rellena correctamente los datos del formulario aparece el json donde se han guardado los datos. A continuación se muestra cómo debería verse:
 
-- Si algo ha ido mal en el funcionamiento de esta práctica, salta a la pagina error.html mostrando un mensaje.
+
+![Captura de pantalla 2022-03-20 a las 18 07 00](https://user-images.githubusercontent.com/98181428/159174091-b67e5d31-7048-4b28-bb54-2a08ef7a4791.png)
+
+Decir que si se trata de accecer a las diferentes páginas html del menú que se muestra en registrase.html, va a mostrar un mensaje de error como el que se muestra a continuación:
+
+![Captura de pantalla 2022-03-20 a las 18 03 36](https://user-images.githubusercontent.com/98181428/159173978-b74b5012-76b5-4a21-8a5e-8effad996646.png)
+
+Dicho mensaje se encuentra en error.html y también se muestra si algo no funciona durante la práctica.
+
+
