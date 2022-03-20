@@ -4,7 +4,9 @@ Durante esta quinta práctica se procede a desarrollar una API REST con SpringBo
 
 Se ha reutilizado la práctica anterior para realizar un formulario de registro implementando un endpoint implementado con SpringBoot.
 
-Para ello, se ha añadido una séptima página html denominada **registrarse.html**  a la cual se puede acceder pinchando en FanStore. La idea es realizar un formulario de registro de usuario, en el que se introducen los datos personales junto con una contraseña.  Como este apartado se ha hecho en SpringBoot se ha de levantar su servidor para que en la dirección http://localhost:8080/ aparezca la siguiente ventana:
+Para ello, se ha añadido una séptima página html denominada **registrarse.html**  a la cual se puede acceder pinchando en FanStore si se ejecutara la práctica como html. 
+
+La idea es realizar un formulario de registro de usuario, en el que se introducen los datos personales junto con una contraseña. Como este apartado se ha hecho en SpringBoot se ha de levantar su servidor para que en la dirección http://localhost:8080/ aparezca la ventana de registrase.html que se muestra a contiuación:
 
 ![Captura de pantalla 2022-03-20 a las 17 59 41](https://user-images.githubusercontent.com/98181428/159173714-02b4bb9c-054c-4f54-a6ab-a6c996a0953d.png)
 
