@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+  <title>Getting Started: Handling Form Submission</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body onload="hola()">
+
+  <p id="json"></p>
+
+  <script type="text/javascript">
+    function hola()
+    {
+
+      var a =  "[[${registrarse.fname}]]";
+      var b =  "[[${registrarse.lname}]]";
+      var c =  "[[${registrarse.age}]]";
+      var d =  "[[${registrarse.ident}]]";
+      var e =  "[[${registrarse.pass}]]";
+
+      var datos  = [];
+      var objeto = {};
+
+       datos.push({
+        "nombre"    : a,
+        "apellidos"  : b,
+        "edad"    : c,
+        "identificador"    : d,
+        "contraseña"    : e,
+          });
+
+      objeto.datos = datos;
+      console.log(JSON.stringify(objeto));
+
+      document.getElementById('json').innerHTML=JSON.stringify(objeto,null,'\t');
+
+     }
+      setTimeout(function(){hola();}, 1000)
+</script>
+
+</body>
+
+</html>
